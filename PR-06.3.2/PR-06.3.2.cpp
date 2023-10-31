@@ -31,8 +31,8 @@ int main()
 {
 	const int n = 8;
 	int a[n];
-	int Low = -2;
-	int High = 2;
+	int Low = -4;
+	int High = 4;
 	Create(a, n, Low, High, 0);
 	Print(a, n, 0);
 	cout << "S = " << Sum(a, n, 0) << endl;
