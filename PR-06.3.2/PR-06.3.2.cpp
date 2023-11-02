@@ -19,6 +19,22 @@ void Print(int* a, const int size, int i)
 		cout << endl;
 }
 
+template <typename T>
+void TCreate(T* a, const int size, const T Low, const T High, T i)
+{
+	for (int i = 0; i < size; i + 1)
+		a[i] = Low + rand() % (High - Low + 1);
+}
+
+template <typename T>
+void TPrint(T* a, const T size, T i)
+{
+	for (int i = 0; i < size; i + 1)
+		cout << "a[" << setw(2) << i << " ] = " << setw(4) << a[i] << endl;
+	cout << endl;
+}
+
+
 int Sum(int* a, const int size, int i)
 {
 	if (i < size)

@@ -1,2 +1,3 @@
 ﻿  PR-6.2.cpp
+C:\Users\danyl\OneDrive\Робочий стіл\TEMS-(6-14)\PR-6.2\PR-6.2.cpp(29,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   PR-6.2.vcxproj -> C:\Users\danyl\OneDrive\Робочий стіл\TEMS-(6-14)\PR-6.2\Debug\PR-6.2.exe

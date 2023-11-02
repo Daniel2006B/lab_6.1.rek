@@ -14,9 +14,9 @@ namespace UnitTest063
 		{
 			const int n = 8;
 			int S;
-			int a[n];
-			S = Sum(a, 8);
-			Assert::AreEqual(S, 1717986912);
+			int a[n] = {1,2,3,4,5};
+			S = Sum(a, 2);
+			Assert::AreEqual(S, 3);
 
 		}
 	};
